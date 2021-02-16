@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from './page-not-found.component';
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-      { path: '**', component: PageNotFoundComponent },
+      { path: '**', component: PageNotFoundComponent }
     ])
   ],
   exports: [RouterModule]
